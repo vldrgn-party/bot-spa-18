@@ -30,8 +30,8 @@ bot.on('message', async (msg) => {
         }
 
         if (text === '/start') {
-            await bot.sendPhoto(chatId, './img/home.jpg');
-            await bot.sendMessage(chatId, "💰 Добро пожаловать в Dragon money! 🐉 \n\n Теперь вы можете играть в любимые \n игры прямо в телеграм!", menu_game)
+            await bot.sendPhoto(chatId, './img/home-2.jpg');
+            await bot.sendMessage(chatId, " 🔥 Лучшие условия ждут на Dragon Money: \n\n\n<b>🔸СРЕДНИЙ RTP 97%</b> \n\n<b>🔸БЕЗЛИМИТНЫЕ и БЫСТРЫЕ выплаты</b> \n\n<b>🔸10% КЕШБЭК</b> \n\n<b>🔸РОЗЫГРЫШИ И ПРОМИКИ ДЛЯ ИГРОКОВ</b> \n\n\n Жми на кнопку и выигрывай прямо в Telegram👇", menu_game) 
         }
     }
     startBot()
